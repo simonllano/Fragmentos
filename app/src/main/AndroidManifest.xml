@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Fragmentos"
         tools:targetApi="31">
         <activity
-            android:name=".BottomNavigationActivity"
+            android:name=".ui.bottom.BottomNavigationActivity"
             android:exported="true"
             android:label="@string/title_activity_bottom_navigation" >
             <intent-filter>
