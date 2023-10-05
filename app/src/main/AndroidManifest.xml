@@ -13,19 +13,25 @@
         android:theme="@style/Theme.Fragmentos"
         tools:targetApi="31">
         <activity
+            android:name=".ui.navdrawer.NavigationDrawerActivity"
+            android:exported="true"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/Theme.Fragmentos" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
             android:name=".ui.bottom.BottomNavigationActivity"
             android:exported="true"
-            android:label="@string/title_activity_bottom_navigation" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:label="@string/title_activity_bottom_navigation">
 
+        </activity>
         <activity
             android:name=".ui.main.MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
