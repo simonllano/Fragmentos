@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_batman">
+    <fragment
+        android:id="@+id/navigation_batman"
+        android:name="com.simonllano.fragmentos.ui.batman.batmanFragment"
+        android:label="fragment_batman"
+        tools:layout="@layout/fragment_batman" />
+    <fragment
+        android:id="@+id/navigation_flash"
+        android:name="com.simonllano.fragmentos.ui.flash.flashFragment"
+        android:label="fragment_flash"
+        tools:layout="@layout/fragment_flash" />
+    <fragment
+        android:id="@+id/navigation_superman"
+        android:name="com.simonllano.fragmentos.ui.superman.supermanFragment"
+        android:label="fragment_superman"
+        tools:layout="@layout/fragment_superman" />
+    <fragment
+        android:id="@+id/navigation_wonderwoman"
+        android:name="com.simonllano.fragmentos.ui.wonderwoman.wonderwomanFragment"
+        android:label="fragment_wonderwoman"
+        tools:layout="@layout/fragment_wonderwoman" />
+</navigation>
