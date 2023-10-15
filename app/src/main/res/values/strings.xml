@@ -25,6 +25,16 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="superheroes">Superheroes</string>
+    <string name="bottom_navi">Bottom Navigation</string>
+    <string name="Enter">Entrar</string>
+    <string name="nav_drawer">Navigation Drawer</string>
+    <string name="swipe_tabs">Swipe tabs</string>
+    <string name="master_Detail">Master detail</string>
+    <string name="titulo_vistas">Vistas de superheroes</string>
 
 
 </resources>
