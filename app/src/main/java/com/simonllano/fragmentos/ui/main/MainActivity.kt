@@ -3,8 +3,6 @@ package com.simonllano.fragmentos.ui.main
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.core.content.ContextCompat.startActivity
-import com.simonllano.fragmentos.R
 import com.simonllano.fragmentos.databinding.ActivityMainBinding
 import com.simonllano.fragmentos.ui.bottom.BottomNavigationActivity
 import com.simonllano.fragmentos.ui.masterdetail.MasterDetailActivity
