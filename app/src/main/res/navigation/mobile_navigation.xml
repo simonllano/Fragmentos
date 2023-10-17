@@ -7,21 +7,21 @@
     <fragment
         android:id="@+id/navigation_batman"
         android:name="com.simonllano.fragmentos.ui.batman.batmanFragment"
-        android:label="fragment_batman"
+        android:label="Batman"
         tools:layout="@layout/fragment_batman" />
     <fragment
         android:id="@+id/navigation_flash"
         android:name="com.simonllano.fragmentos.ui.flash.flashFragment"
-        android:label="fragment_flash"
+        android:label="Flash"
         tools:layout="@layout/fragment_flash" />
     <fragment
         android:id="@+id/navigation_superman"
         android:name="com.simonllano.fragmentos.ui.superman.supermanFragment"
-        android:label="fragment_superman"
+        android:label="Superman"
         tools:layout="@layout/fragment_superman" />
     <fragment
         android:id="@+id/navigation_wonderwoman"
         android:name="com.simonllano.fragmentos.ui.wonderwoman.wonderwomanFragment"
-        android:label="fragment_wonderwoman"
+        android:label="Wonder Woman"
         tools:layout="@layout/fragment_wonderwoman" />
 </navigation>

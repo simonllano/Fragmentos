@@ -2,8 +2,25 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Fragmentos" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colormain</item> -->
     </style>
 
     <style name="Theme.Fragmentos" parent="Base.Theme.Fragmentos" />
+
+    <style name="Theme.Fragmentos.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colormain</item>
+
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/colormain</item>
+    </style>
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="colorPrimary">@color/colormain</item>
+    </style>
+
+
 </resources>

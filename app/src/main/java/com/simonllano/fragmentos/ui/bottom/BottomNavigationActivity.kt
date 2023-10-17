@@ -1,4 +1,4 @@
-package com.simonllano.fragmentos
+package com.simonllano.fragmentos.ui.bottom
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -7,6 +7,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.simonllano.fragmentos.R
 import com.simonllano.fragmentos.databinding.ActivityBottomNavigationBinding
 
 class BottomNavigationActivity : AppCompatActivity() {
@@ -26,7 +27,10 @@ class BottomNavigationActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.navigation_batman, R.id.navigation_wonderwoman, R.id.navigation_flash, R.id.navigation_flash
+                R.id.navigation_batman,
+                R.id.navigation_wonderwoman,
+                R.id.navigation_superman,
+                R.id.navigation_flash
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
