@@ -20,6 +20,7 @@
             android:padding="@dimen/appbar_padding"
             android:text="@string/app_name"
             android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+            android:textColor="@color/colormain"
             tools:ignore="TextContrastCheck" />
 
         <com.google.android.material.tabs.TabLayout

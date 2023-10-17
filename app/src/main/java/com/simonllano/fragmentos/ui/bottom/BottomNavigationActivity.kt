@@ -29,7 +29,7 @@ class BottomNavigationActivity : AppCompatActivity() {
             setOf(
                 R.id.navigation_batman,
                 R.id.navigation_wonderwoman,
-                R.id.navigation_flash,
+                R.id.navigation_superman,
                 R.id.navigation_flash
             )
         )

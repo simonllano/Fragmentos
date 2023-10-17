@@ -10,21 +10,21 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Fragmentos"
+        android:theme="@style/Base.Theme.Fragmentos"
         tools:targetApi="31">
         <activity
             android:name=".ui.masterdetail.MasterDetailActivity"
             android:label="@string/superheroes"
             android:exported="true" >
-
         </activity>
+
         <activity
             android:name=".ui.tabbed.TabbedActivity"
             android:exported="true"
             android:label="@string/title_activity_tabbed"
             android:theme="@style/Theme.Fragmentos.NoActionBar">
-
         </activity>
+
         <activity
             android:name=".ui.navdrawer.NavigationDrawerActivity"
             android:exported="true"
@@ -33,10 +33,12 @@
         <activity
             android:name=".ui.bottom.BottomNavigationActivity"
             android:exported="true"
-            android:label="@string/title_activity_bottom_navigation" />
+            android:label="@string/title_activity_bottom_navigation"
+            android:theme="@style/Base.Theme.Fragmentos" />
         <activity
             android:name=".ui.main.MainActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:theme="@style/Theme.Fragmentos.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

@@ -1,19 +1,19 @@
 <resources>
-    <string name="app_name">Fragmentos</string>
+    <string name="app_name">Superheroes</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="batman_name">Batman</string>
     <string name="batman_alias">Bruce Wayne</string>
-    <string name="batman_powers">exceptional martial artist, combat strategy, inexhaustible wealth, brilliant deductive skill, advanced technology</string>
+    <string name="batman_powers">Exceptional martial artist, combat strategy, inexhaustible wealth, brilliant deductive skill, advanced technology</string>
     <string name="superman_name">Superman</string>
     <string name="superman_alias">Clark Kent, Kal-El</string>
-    <string name="superman_powers">super strength, flight, invulnerability, super speed, heat vision, freeze breath, x-ray vision, superhuman hearing, healing factor</string>
+    <string name="superman_powers">Super strength, flight, invulnerability, super speed, heat vision, freeze breath, x-ray vision, superhuman hearing, healing factor</string>
     <string name="wonderwoman_name">Wonder Woman</string>
     <string name="wonderwoman_alias">Diana Prince</string>
-    <string name="wonderwoman_powers">super strength, invulnerability, flight, combat skill, combat strategy, superhuman agility, healing factor, magic weaponry</string>
+    <string name="wonderwoman_powers">Super strength, invulnerability, flight, combat skill, combat strategy, superhuman agility, healing factor, magic weaponry</string>
     <string name="flash_name">Flash</string>
     <string name="flash_alias">Barry Allen, Jay Garrick, Wally West</string>
-    <string name="flash_powers">super speed, intangibility, superhuman agility, time travel, creates and controls lightning, multiversal knowledge</string>
+    <string name="flash_powers">Super speed, intangibility, superhuman agility, time travel, creates and controls lightning, multiversal knowledge</string>
     <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
@@ -35,6 +35,5 @@
     <string name="swipe_tabs">Swipe tabs</string>
     <string name="master_Detail">Master detail</string>
     <string name="titulo_vistas">Vistas de superheroes</string>
-
 
 </resources>
